@@ -1,0 +1,31 @@
+*** Creating Trace Output File '.\output\test.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\output\main.o"'
+### List of Objects: adding '".\output\stm32f10x_it.o"'
+### List of Objects: adding '".\output\public.o"'
+### List of Objects: adding '".\output\core_cm3.o"'
+### List of Objects: adding '".\output\system_stm32f10x.o"'
+### List of Objects: adding '".\output\startup_stm32f10x_hd.o"'
+### List of Objects: adding '".\output\stm32f10x_gpio.o"'
+### List of Objects: adding '".\output\stm32f10x_rcc.o"'
+### List of Objects: adding '".\output\led.o"'
+### List of Objects: adding '".\output\beep.o"'
+### List of Objects: adding '".\output\systick.o"'
+### List of Objects: adding '".\output\key.o"'
+### List of Objects: adding '".\output\digital.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\output\main.o" ".\output\stm32f10x_it.o" ".\output\public.o" ".\output\core_cm3.o" ".\output\system_stm32f10x.o" ".\output\startup_stm32f10x_hd.o" ".\output\stm32f10x_gpio.o" ".\output\stm32f10x_rcc.o" ".\output\led.o" ".\output\beep.o" ".\output\systick.o" ".\output\key.o" ".\output\digital.o" --strict --scatter ".\output\test.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\list\test.map" -o ".\output\test.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\output\test.axf'
+### ADS-LD Command File: '.\output\test.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\output\test.lnp', Handle=0x0000057C
+### Writing '.lnp' file
+### ADS-LD Command file '.\output\test.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

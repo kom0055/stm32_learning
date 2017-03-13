@@ -1,0 +1,14 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+D:\学习\专业\研一\STM32学习\digitaltube\digital.uvproj
+Project File Date:  10/13/2016
+
+<h2>Output:</h2>
+Build target 'Target 1'
+linking...
+Program Size: Code=2852 RO-data=336 RW-data=56 ZI-data=1632  
+FromELF: creating hex file...
+".\output\test.axf" - 0 Error(s), 0 Warning(s).
